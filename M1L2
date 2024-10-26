@@ -1,0 +1,10 @@
+import random
+passwords = ("+-/*!&$#?=@abcdefghijklnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890")
+character = input('Напишите сколько символов хотите в пароле.(❁´◡`❁)')
+
+password_2 = ('')
+
+for i in range(character):
+    password_2 += random.choice(passwords)
+
+print(password_2)
